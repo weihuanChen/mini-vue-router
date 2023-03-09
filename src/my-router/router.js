@@ -9,7 +9,7 @@ import { ref } from "vue";
 export function createRouter(options) {
   const router = {
     options, //保存配置项
-    current: ref(window.location.hash.slice(1) || "/"), //把hash井号前的地址切下来做响应式
+    current: ref(window.location.hash.slice(1) || "/"), //把hash井号前的地址切下来做响应式,这里需要通过ref做响应式，这样才能跟组件产生effect依赖
     //安装方法
     //由于要在全局上挂$router以供用户使用，因此要接收一个app实例
     install(app) {
@@ -24,7 +24,7 @@ export function createRouter(options) {
       app.component("RouterView", RouterView);
     },
   };
-  //监听事件
+  //监听事件,发生变化后view重新渲染
   window.addEventListener("hashchange", () => {
     router.current.value = window.location.hash.slice(1);
     console.log(router.current.value);

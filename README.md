@@ -12,10 +12,16 @@
 
 pnpm install
 
+### 路径说明
+
+my-router 路径下 是造的轮子,目前只支持 hash 模式
+
 ### 开发过程
 
 > 1 定义一个由 createRouter 产生的插件作为载体
 > 2 实现两个组件,路由入口 router-link 用于匹配传入的路由,路由出口 router-view 用于渲染匹配的组件
+> 3 实现对 url 的监听
+> 4 匹配路由并通过 h 函数渲染
 
 #### 命令
 

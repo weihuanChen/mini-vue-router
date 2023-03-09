@@ -1,23 +1,23 @@
 项目名：[mini-Vue-router]，git 仓库地址：[repository's url from origin] 。本项目第一负责人为 `[weihuanChen]`。
 
-## 0.描述
+## 描述
 
 仿造 Vue-router4.0 版本的轮子,个人学习用
 
-## 1. 如何运行
+## 如何运行
 
 > node `[v16.17.0+]`
 
-### 1.1 开发环境配置
+### 开发环境配置
 
 pnpm install
 
-### 1.2 开发过程
+### 开发过程
 
 > 1 定义一个由 createRouter 产生的插件作为载体
 > 2 实现两个组件,路由入口 router-link 用于匹配传入的路由,路由出口 router-view 用于渲染匹配的组件
 
-#### 1.2.1 命令
+#### 命令
 
 ```sh
 # 开发
@@ -38,7 +38,7 @@ npm run build
 
 - `/^https?://now\.qq\.com/(.*\.(js|css|png|jpg|gif|jpeg|svg|blob).*)$/` `ROOT:/path/$1` -->
 
-### 1.3 发布
+<!-- ### 1.3 发布
 
 | 发布产品 | 发布模块 |
 | -------- | -------- |
@@ -46,7 +46,7 @@ npm run build
 
 > 发布时的备注
 
-### 1.4 错误告警及监控
+### 1.4 错误告警及监控 -->
 
 <!--
 ### 1.5 CGI
@@ -56,7 +56,7 @@ npm run build
 | [xxx](xxxx) | XXXX          | xxx |
 | [xxx](xxxx)   | XXXX    | xxx | -->
 
-### 1.6 相关人员
+### 相关人员
 
 | 角色     | 人员        |
 | -------- | ----------- |

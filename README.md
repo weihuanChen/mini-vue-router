@@ -1,4 +1,4 @@
-项目名：[mini-Vue-router]，git 仓库地址：[https://github.com/weihuanChen/mini-vue-router.git] 。本项目第一负责人为 `[weihuanChen]`。
+项目名：[mini-vue-router]，git 仓库地址：[https://github.com/weihuanChen/mini-vue-router.git] 。本项目第一负责人为 `[weihuanChen]`。
 
 ## 描述
 
